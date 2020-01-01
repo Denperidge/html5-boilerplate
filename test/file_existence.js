@@ -18,7 +18,6 @@ const expectedFilesInDistDir = [
   '.gitignore',
   '.htaccess',
   '404.html',
-  'browserconfig.xml',
 
   'css/', // for directories, a `/` character
   // should be included at the end
@@ -54,9 +53,7 @@ const expectedFilesInDistDir = [
 
   'LICENSE.txt',
   'robots.txt',
-  'site.webmanifest',
-  'tile-wide.png',
-  'tile.png'
+  'site.webmanifest'
 
 ];
 
