@@ -1,15 +1,9 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+# humanstxt.org
 
 # TEAM
+    Name: Denperidge
+    Site: denperidge.com
+    Location: Belgium
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+# THANKS 
+    All my family and friends who supported me!
