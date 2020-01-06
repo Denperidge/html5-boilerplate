@@ -24,3 +24,7 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 - Modernizr removal
 
   I'll be using Modernizr in certain projects that require special features. However, since this template will be used in some low-key sites (for example, a simple introduction page), loading Modernizr by default will be overkill.
+
+- JQuery removal
+
+  For the same reasons as the previous .
