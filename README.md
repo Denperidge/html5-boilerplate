@@ -2,7 +2,11 @@
 
 This repository is my modified version of the HTML Boilerplate, for use in my repositories.
 
-These changes (will) include my own Google Analytics link, and some stripped out features from the original. This is not by any means due to any objective complaints with the original repository, it simply comes from my subjective preferences and wish to keep things minimal. I'll keep track of every change (and why I make them) for personal documentation reasons.
+These changes include my own Google Analytics link, and some stripped out features from the original that I no longer require (for example, no need for Travis testing for a fork that is intended for my personal sites). This is not by any means due to any complaints with the original repository, it's simply me branching out the amazing template into a template with my own quirks built-in, for use on my own websites (seeing as it wouldn't make sense to keep re-cloning and re-doing my changes with every site I build). I'll keep track of every change (and why I make them) for personal documentation reasons.
+
+## Why fork?
+
+Forking this might seem like an illogical option, seeing as the original repo's intent is to be universally used by everyone, whilst my fork is simply intended to be used with my own websites. I'm doing this since the HTML5 Boilerplate has some amazing ideologies (to give an example, meta charset's location at the top and google analytics' placement at the bottom of the page) that are a rare find, and I'd like to base my own template from the foundation that they've layed. It'd feel unfair to simply download the latest Boilerplate release and upload it with my changes as if it was my own. Instead, I'd like to grow my own template alongside the original repository, whilst still keeping it adjusted to my needs so that it fits right into my projects.
 
 ## Changes
 - Removal of IE11 flavour
