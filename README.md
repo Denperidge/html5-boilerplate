@@ -40,3 +40,7 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 - Reset of package.json & gulp
 
   Seeing that I've *heavily* trimmed the repository, a lot of packages are no longer in use. Now only keeping a few packages installed
+
+- Removed 404.html
+
+  As I'm not building into a specific host, the 404 will be handled on a case-by-case basis.
