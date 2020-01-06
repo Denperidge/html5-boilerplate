@@ -1,6 +1,6 @@
 # HTML5 Boilerplate (modified)
 
-This repository is my modified version of the HTML Boilerplate, for use in my repositories.
+This repository is my modified version of the HTML Boilerplate, for use in my personal projects.
 
 These changes include my own Google Analytics link, and some stripped out features from the original that I no longer require (for example, no need for Travis testing for a fork that is intended for my personal sites). This is not by any means due to any complaints with the original repository, it's simply me branching out the amazing template into a template with my own quirks built-in, for use on my own websites (seeing as it wouldn't make sense to keep re-cloning and re-doing my changes with every site I build). I'll keep track of every change (and why I make them) for personal documentation reasons.
 
@@ -12,4 +12,8 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 - Removal of IE11 flavour
 
   According to W3C, [Internet Explorer 11 accounts for about 3% of the browsers](https://www.w3counter.com/trends), so we have not yet arrived at a point where IE11 can be disregarded. However, with how heavy web development can become with platform specific quirks, I don't have the ability to design special assets for IE11 alone. I will still try to keep my websites functional on it, but the cost-benefit for adding flavour specifically for IE11 is not worth it for a single developer (whose target audience would probably not be running Internet Explorer 11 either way).
+
+- Removal of Travis
+
+  Travis is no longer necessary seeing as this is intended for personal use (see [Introduction](#html5-boilerplate-modified) and [Why fork?](#why-fork)).
 
