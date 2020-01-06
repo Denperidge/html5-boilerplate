@@ -36,3 +36,7 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 - Removal of convention files, docs & tests
 
   For the same reasons as the previous.
+
+- Reset of package.json & gulp
+
+  Seeing that I've *heavily* trimmed the repository, a lot of packages are no longer in use. Now only keeping a few packages installed
