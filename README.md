@@ -20,3 +20,7 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 - Favicon in folder
 
   Although it is unorthodox, I placed my favicon in a folder, since I like to keep my files a bit organized. The only bug this causes is non-html links not rendering the favicon, however, this can be fixed with a simple redirect. 
+
+- Modernizr removal
+
+  I'll be using Modernizr in certain projects that require special features. However, since this template will be used in some low-key sites (for example, a simple introduction page), loading Modernizr by default will be overkill.

@@ -11,10 +11,8 @@ import archiver from 'archiver';
 import glob from 'glob';
 import del from 'del';
 import ssri from 'ssri';
-import modernizr from 'modernizr';
 
 import pkg from './package.json';
-import modernizrConfig from './modernizr-config.json';
 
 const dirs = pkg['h5bp-configs'].directories;
 
@@ -80,11 +78,9 @@ gulp.task('copy:index.html', () => {
     { algorithms: ['sha256'] }
   );
   let version = pkg.devDependencies.jquery;
-  let modernizrVersion = pkg.devDependencies.modernizr;
 
   return gulp.src(`${dirs.src}/index.html`)
     .pipe(plugins().replace(/{{JQUERY_VERSION}}/g, version))
-    .pipe(plugins().replace(/{{MODERNIZR_VERSION}}/g, modernizrVersion))
     .pipe(plugins().replace(/{{JQUERY_SRI_HASH}}/g, hash.toString()))
     .pipe(gulp.dest(dirs.dist));
 });
@@ -126,16 +122,6 @@ gulp.task('copy:misc', () =>
   }).pipe(gulp.dest(dirs.dist))
 );
 
-gulp.task('copy:normalize', () =>
-  gulp.src('node_modules/normalize.css/normalize.css')
-    .pipe(gulp.dest(`${dirs.dist}/css`))
-);
-
-gulp.task('modernizr', (done) => {
-  modernizr.build(modernizrConfig, (code) => {
-    fs.writeFile(`${dirs.dist}/js/vendor/modernizr-${pkg.devDependencies.modernizr}.min.js`, code, done);
-  });
-});
 
 gulp.task('lint:js', () =>
   gulp.src([
@@ -165,9 +151,8 @@ gulp.task(
   'build',
   gulp.series(
     gulp.parallel('clean', 'lint:js'),
-    'copy',
-    'modernizr'
-  )
+    'copy'
+    )
 );
 
 gulp.task(
