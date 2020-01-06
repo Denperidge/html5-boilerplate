@@ -17,3 +17,6 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 
   Travis is no longer necessary seeing as this is intended for personal use (see [Introduction](#html5-boilerplate-modified) and [Why fork?](#why-fork)).
 
+- Favicon in folder
+
+  Although it is unorthodox, I placed my favicon in a folder, since I like to keep my files a bit organized. The only bug this causes is non-html links not rendering the favicon, however, this can be fixed with a simple redirect. 
