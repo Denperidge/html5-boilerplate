@@ -44,3 +44,7 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 - Removed 404.html
 
   As I'm not building into a specific host, the 404 will be handled on a case-by-case basis.
+
+- Added own Google Analytics ID
+
+  It'd not make a lot of sense to keep filling the ID in every time I create a new page. If it has to be different later on (on specific pages etc.) I can always change it.
