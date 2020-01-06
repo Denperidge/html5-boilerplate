@@ -27,4 +27,8 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 
 - JQuery removal
 
-  For the same reasons as the previous .
+  For the same reasons as the previous.
+
+- Removal of default js/css
+
+  My different sites will use different forms of JS/CSS, and thus may be placed in differently named files in different locations.
