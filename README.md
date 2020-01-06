@@ -2,7 +2,7 @@
 
 This repository is my modified version of the HTML Boilerplate, for use in my personal projects.
 
-These changes include my own Google Analytics link, and some stripped out features from the original that I no longer require (for example, no need for Travis testing for a fork that is intended for my personal sites). This is not by any means due to any complaints with the original repository, it's simply me branching out the amazing template into a template with my own quirks built-in, for use on my own websites (seeing as it wouldn't make sense to keep re-cloning and re-doing my changes with every site I build). I'll keep track of every change (and why I make them) for personal documentation reasons.
+These changes include my own Google Analytics link, and many stripped out features from the original that I no longer require (for example, no need for Travis testing for a fork that is intended for my personal sites). This is not by any means due to any complaints with the original repository, it's simply me branching out the amazing template into a template with my own quirks built-in, for use on my own websites (seeing as it wouldn't make sense to keep re-cloning and re-doing my changes with every site I build). I'll keep track of every change (and why I make them) for personal documentation reasons.
 
 ## Why fork?
 
@@ -32,3 +32,7 @@ Forking this might seem like an illogical option, seeing as the original repo's 
 - Removal of default js/css
 
   My different sites will use different forms of JS/CSS, and thus may be placed in differently named files in different locations.
+
+- Removal of convention files, docs & tests
+
+  For the same reasons as the previous.
